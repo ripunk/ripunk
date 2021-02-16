@@ -1,6 +1,6 @@
 #!/bin/bash
 #creat by Ripunk
-
+clear
 function eror(){
 eror=$?
 if [ $eror != 0 ]; then
