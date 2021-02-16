@@ -33,7 +33,7 @@ sleep 0.5
 echo -e "[*] Done!"
 echo -e "[*] Installing required packages..."
 apt update
-DEBIAN_FRONTEND=noninteractive apt install bison build-essential curl flex git gnupg gperf liblz4-tool libncurses5-dev libsdl1.2-dev libxml2 libxml2-utils lzop pngcrush schedtool squashfs-tools xsltproc zip zlib1g-dev build-essential libncurses5-dev bzip2 git bc -y 
+DEBIAN_FRONTEND=noninteractive apt install bison build-essential curl flex git gnupg gperf liblz4-tool libncurses5-dev libsdl1.2-dev libxml2 libxml2-utils lzop pngcrush schedtool squashfs-tools xsltproc zip zlib1g-dev build-essential libncurses5-dev bzip2 git python bc -y 
 eror
 sleep 2
 echo "export CROSS_COMPILE= " >> /root/.bashrc
